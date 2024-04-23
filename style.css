@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(35, 64, 75);
+    padding-bottom: 15px;
+}
+.card{
+    color: white !important;
+    background-image: linear-gradient(to right , rgb(221,202,163), rgb(67,85,84));
+    margin-bottom: 10px !important;
+}
+.card-header{
+    background-color: black !important;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    margin: 30px auto 0 auto !important;
+    object-fit: scale-down;
+}
+.image img{
+    width: 90%;
+    align-self: center;
+    height: 100%;
+}
+.card-body{
+    padding-bottom: 30px !important;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+.col-sm-6{
+    margin-top: 1em !important;
+} 
+.btn-primary{
+    background:none !important;
+    border: 1px solid white !important;
+    margin-top: 5%;
+}
+.btn-primary:hover{
+    background: white !important;
+    color:rgb(35, 64, 75) !important;
+}
